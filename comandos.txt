@@ -1,0 +1,30 @@
+Comandos:
+1- entrar na pasta q contem os arquivos
+cd repositories/ExemploRMIJava/src/main/java/br/ufs/dcomp/ExemploRMIJava 
+
+2- Rodar o comando de acordo com o caminho todo até a pasta que contem os arquivos (pwd) para compilar
+javac -d /media/HD/WorkspaceHD/Computer_Engennier/5_SEMESTRE/Sistemas_Distribuidos/p1/repositories/ExemploRMIJava/src/main/java/br/ufs/dcomp/ExemploRMIJava CalcClient.java*  Calc.java*  CalcServer.java*  ICalc.java*
+
+3- dar um ls para verificar se criou o arquivo compilado
+
+4- rodar o comando 
+rmic br.ufs.dcomp.ExemploRMIJava.Calc 
+
+5- rodar o comando
+rmiregistry &
+
+6- rodar o comando para abrir o servidor
+https://static.javatpoint.com/src/rmi/rmidb.zip
+
+7- em outro terminal rodar o comando e tera o resultado
+java br.ufs.dcomp.ExemploRMIJava.CalcClient\
+
+Fonte:
+github do exemplo q deu sucesso:
+https://github.com/tarcisiodarocha/ExemploRMIJava
+
+base para os comandos:
+https://www.javatpoint.com/RMI
+
+tutorial com exemplo de banco de dados:
+https://www.javatpoint.com/RMI
