@@ -19,9 +19,9 @@ public class Acesso implements ImpAcesso{
         return(formacao);
     }
     public String habilidades(String hab1, String hab2, String hab3) throws RemoteException{
-        return(hab1, hab2, hab3);
+        return(hab1+'\n'hab2+'\n'hab3);
     }
     public String experiencia(String exp1, String exp2, String exp3) throws RemoteException{
-        return(exp1, exp2, exp3);
+        return(exp1+'\n'exp2+'\n'exp3);
     }
 }

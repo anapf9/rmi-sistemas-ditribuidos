@@ -1,5 +1,5 @@
-Comandos:
-1- entrar na pasta q contem os arquivos
+Comandos utilizados:
+1- No terminal, entrar na pasta q contem os arquivos do projeto
 cd repositories/ExemploRMIJava/src/main/java/br/ufs/dcomp/ExemploRMIJava 
 
 2- Rodar o comando de acordo com o caminho todo até a pasta que contem os arquivos (pwd) para compilar
