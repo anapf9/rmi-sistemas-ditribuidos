@@ -1,4 +1,4 @@
-package package implementsRMI;
+//package implementsRMI;
 
 import java.rmi.*;
 import java.rmi.registry.*;
@@ -9,7 +9,7 @@ public class AcessoServidor {
         Acesso acesso = new Acesso();
         IAcesso stub = (IAcesso) UnicastRemoteObject.exportObject(acesso, 6677);
         Registry registry = LocateRegistry.createRegistry(30000);
-        registry.rebind("Cadastro", stub);
+        registry.rebind("cadastro", stub);
     }
 
 }
